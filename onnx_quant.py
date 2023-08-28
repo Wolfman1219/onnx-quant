@@ -58,6 +58,8 @@ class DataReader(CalibrationDataReader):
     def rewind(self):
         self.pos = -1
 
+preprocessed_name = model_name + ".pre.onnx"
+
 quantize_name = model_name + ".qdq.onnx"
 
 
